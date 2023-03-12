@@ -1,0 +1,8 @@
+prefix=/home/pi/project/catkin_ws/install
+
+Name: path_planning
+Description: Description of path_planning
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

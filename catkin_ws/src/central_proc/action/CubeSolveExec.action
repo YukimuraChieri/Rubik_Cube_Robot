@@ -1,0 +1,11 @@
+# Define the goal
+# 定义目标信息
+string cmd_list
+---
+# Define the result
+# 定义结果信息
+string result
+---
+# Define a feedback message
+# 定义周期反馈的信息
+string now_cmd

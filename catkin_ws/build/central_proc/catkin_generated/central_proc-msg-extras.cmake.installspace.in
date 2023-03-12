@@ -1,0 +1,2 @@
+set(central_proc_MESSAGE_FILES "msg/CubeReadExecAction.msg;msg/CubeReadExecActionGoal.msg;msg/CubeReadExecActionResult.msg;msg/CubeReadExecActionFeedback.msg;msg/CubeReadExecGoal.msg;msg/CubeReadExecResult.msg;msg/CubeReadExecFeedback.msg;msg/CubeSolveExecAction.msg;msg/CubeSolveExecActionGoal.msg;msg/CubeSolveExecActionResult.msg;msg/CubeSolveExecActionFeedback.msg;msg/CubeSolveExecGoal.msg;msg/CubeSolveExecResult.msg;msg/CubeSolveExecFeedback.msg")
+set(central_proc_SERVICE_FILES "")

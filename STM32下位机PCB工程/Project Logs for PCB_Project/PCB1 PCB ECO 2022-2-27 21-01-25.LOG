@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=+7.5V Pin=C5-1
+Removed Pin From Net: NetName=7.5V_GND Pin=C5-2
+Removed Pin From Net: NetName=3.3V Pin=C7-1
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=OSCIN Pin=C9-2
+Removed Pin From Net: NetName=3.3V Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=3.3V Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=OSCOUT Pin=C15-2
+Removed Member From Class: ClassName=Sheet1 Member=C14
+Removed Member From Class: ClassName=Sheet1 Member=C14
+Removed Member From Class: ClassName=Sheet1 Member=C14
+Removed Member From Class: ClassName=Sheet1 Member=C15
+Removed Member From Class: ClassName=Sheet1 Member=C15
+Change Component Footprint: Designator=C7 Old Footprint=Ó„µÁ»› New Footprint=0805C
+Change Component Comment : Designator=C9 Old Comment=22pF New Comment=104
+Change Component Comment : Designator=C13 Old Comment=104 New Comment=22pF
+Change Component Comment : Designator=C7 Old Comment=Cap Pol New Comment=22pF
+Change Component Designator: OldDesignator=C6 NewDesignator=C5
+Change Component Designator: OldDesignator=C8 NewDesignator=C6
+Change Component Designator: OldDesignator=C10 NewDesignator=C8
+Change Component Designator: OldDesignator=USB_? NewDesignator=USB
+Added Component: Designator=C10(0805C)
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=OSCIN Pin=C7-2
+Added Pin To Net: NetName=3.3V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=3.3V Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=OSCOUT Pin=C13-2
+Added Room: Name=Sheet1

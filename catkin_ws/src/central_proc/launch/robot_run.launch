@@ -1,0 +1,53 @@
+<launch>
+    <!-- 启动底层控制节点 -->
+    <node name="stm32_serial_node" pkg="stm32_serial" type="stm32_serial_node" />
+
+    <!-- 启动两面读取节点 -->
+    <node name="face_read_node" pkg="face_read" type="face_read_node.py" />
+
+    <!-- 把摄像头基准点的配置信息读取到参数服务器 -->
+	<rosparam file="$(find face_read)/config/camera_points.yaml" command="load" ns="camera"/>    
+
+    <!-- 启动Kociemba解序节点 -->
+    <node name="kociemba_solve_node" pkg="kociemba_solve" type="kociemba_solve_node.py" />
+
+    <!-- 启动路径规划节点 -->
+    <node name="path_planning_node" pkg="path_planning" type="path_planning_node.py" />
+
+    <!-- 启动完整六面读取节点 -->
+    <node name="cube_read_node" pkg="central_proc" type="cube_read_exec.py" />
+
+    <!-- 启动魔方解序执行节点 -->
+    <node name="cube_solve_node" pkg="central_proc" type="cube_solve_exec.py" />
+    
+    <!-- 启动中央控制节点 -->
+    <node name="central_proc_node" pkg="central_proc" type="central_proc_node.py" output="screen" />
+
+    <!-- 启动右摄像头节点 -->
+    <node name="right_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <param name="video_device" value="/dev/right_camera" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="pixel_format" value="mjpeg" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="io_method" value="mmap"/>
+        <param name="autoexposure" value="false"/>
+        <param name="exposure" value="40"/>
+        <param name="framerate" value="10" />
+    </node>
+
+    <!-- 启动左摄像头节点 -->
+    <node name="left_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <param name="video_device" value="/dev/left_camera" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="pixel_format" value="mjpeg" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="io_method" value="mmap"/>
+        <param name="autoexposure" value="false"/>
+        <param name="exposure" value="40"/>
+        <param name="framerate" value="10" />
+    </node>
+
+</launch>
+

@@ -1,0 +1,11 @@
+Change Component Comment : Designator=C13 Old Comment=22pF New Comment=20pF
+Change Component Comment : Designator=C7 Old Comment=22pF New Comment=20pF
+Change Component Comment : Designator=R11 Old Comment=330R New Comment=1k
+Change Component Comment : Designator=R8 Old Comment=330R New Comment=1k
+Added Component: Designator=P8(HDR1X2)
+Added Pin To Net: NetName=GND Pin=P8-2
+Added Pin To Net: NetName=PB0 Pin=P8-1
+Added Pin To Net: NetName=PB0 Pin=U2-18
+Added Net: Name=PB0
+Added Member To Class: ClassName=Sheet1 Member=Component P8 Header 2
+Added Room: Name=Sheet1

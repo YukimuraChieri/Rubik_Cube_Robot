@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=U3 Old Footprint=SOP-4 New Footprint=DIP 4
+Change Component Footprint: Designator=U4 Old Footprint=SOP-4 New Footprint=DIP 4
+Change Component Comment : Designator=R6 Old Comment=1K New Comment=4.7K
+Change Component Comment : Designator=R5 Old Comment=1K New Comment=4.7K
+Change Component Comment : Designator=R4 Old Comment=1K New Comment=4.7K
+Change Component Comment : Designator=R3 Old Comment=1K New Comment=4.7K
+Change Component Comment : Designator=R2 Old Comment=1K New Comment=4.7K
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=4.7K
+Added Room: Name=Sheet1

@@ -1,0 +1,8 @@
+prefix=/home/pi/project/catkin_ws/install
+
+Name: stm32_serial
+Description: Description of stm32_serial
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

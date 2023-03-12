@@ -1,0 +1,2 @@
+action_demo:central_proc:face_read:kociemba_solve:path_planning:stm32_serial:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/pi/project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/project/catkin_ws/install -G Unix Makefiles

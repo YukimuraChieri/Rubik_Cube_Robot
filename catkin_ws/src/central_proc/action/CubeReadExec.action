@@ -1,0 +1,11 @@
+# 读取模式
+string read_mode
+---
+# Define the result
+# 定义结果信息
+string six_faces_str
+string hand_axis
+---
+# Define a feedback message
+# 定义周期反馈的信息
+string now_read_faces

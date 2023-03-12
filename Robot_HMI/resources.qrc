@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Resources/button_on.png</file>
+        <file>Resources/button_off.png</file>
+        <file>Resources/up_right.png</file>
+        <file>Resources/up_left.png</file>
+        <file>Resources/pushed_right.png</file>
+        <file>Resources/pushed_left.png</file>
+        <file>Resources/sub_btn.png</file>
+        <file>Resources/add_btn.png</file>
+    </qresource>
+</RCC>

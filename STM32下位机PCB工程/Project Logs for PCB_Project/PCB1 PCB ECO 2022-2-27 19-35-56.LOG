@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=3.3V Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=3.3V Pin=C12-2
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=3.3V Pin=C13-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=3.3V Pin=C14-2
+Change Component Footprint: Designator=C9 Old Footprint=0805 New Footprint=0805C
+Change Component Footprint: Designator=C11 Old Footprint=0805 New Footprint=0805C
+Change Component Footprint: Designator=C12 Old Footprint=0805 New Footprint=0805C
+Change Component Footprint: Designator=C13 Old Footprint=0805 New Footprint=0805C
+Change Component Footprint: Designator=C14 Old Footprint=0805 New Footprint=0805C
+Change Component Footprint: Designator=C15 Old Footprint=0805 New Footprint=0805C
+Added Pin To Net: NetName=3.3V Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=3.3V Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=3.3V Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=3.3V Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Room: Name=Sheet1

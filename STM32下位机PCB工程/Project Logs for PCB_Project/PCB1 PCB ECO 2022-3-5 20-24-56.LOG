@@ -1,0 +1,13 @@
+Added Component: Designator=U3(SOP-4_(TLP521))
+Added Component: Designator=U4(SOP-4_(TLP521))
+Added Pin To Net: NetName=3.3V Pin=U3-1
+Added Pin To Net: NetName=NetR8_2 Pin=U3-2
+Added Pin To Net: NetName=PWM1 Pin=U3-3
+Added Pin To Net: NetName=NetR7_1 Pin=U3-4
+Added Pin To Net: NetName=3.3V Pin=U4-1
+Added Pin To Net: NetName=NetR11_2 Pin=U4-2
+Added Pin To Net: NetName=PWM2 Pin=U4-3
+Added Pin To Net: NetName=NetR10_1 Pin=U4-4
+Added Member To Class: ClassName=Sheet1 Member=Component U3 TLP521-1
+Added Member To Class: ClassName=Sheet1 Member=Component U4 TLP521-1
+Added Room: Name=Sheet1

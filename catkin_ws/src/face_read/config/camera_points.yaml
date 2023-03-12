@@ -1,0 +1,38 @@
+left:
+  point1:
+    x: 121
+    y: 28
+  point2:
+    x: 422
+    y: 13
+  point3:
+    x: 460
+    y: 260
+  point4:
+    x: 428
+    y: 434
+  point5:
+    x: 151
+    y: 440
+  point6:
+    x: 97
+    y: 281
+right:
+  point1:
+    x: 196
+    y: 21
+  point2:
+    x: 501
+    y: 29
+  point3:
+    x: 535
+    y: 276
+  point4:
+    x: 485
+    y: 437
+  point5:
+    x: 205
+    y: 435
+  point6:
+    x: 166
+    y: 274

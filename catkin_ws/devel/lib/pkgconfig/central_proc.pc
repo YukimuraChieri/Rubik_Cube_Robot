@@ -1,0 +1,8 @@
+prefix=/home/pi/project/catkin_ws/devel
+
+Name: central_proc
+Description: Description of central_proc
+Version: 0.0.0
+Cflags: -I/home/pi/project/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
