@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.7.2, 2022-05-27T23:22:58. -->
+<!-- Written by QtCreator 4.7.2, 2023-05-30T20:26:59. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -289,8 +289,8 @@
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedHosts">
        <value type="QString">192.168.0.108</value>
        <value type="QString">192.168.0.109</value>
-       <value type="QString">192.168.0.105</value>
        <value type="QString">192.168.43.138</value>
+       <value type="QString">192.168.0.105</value>
       </valuelist>
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedRemotePaths">
        <value type="QString">/home/pi/project/Robot_HMI/bin</value>
@@ -307,8 +307,8 @@
       <valuelist type="QVariantList" key="ProjectExplorer.RunConfiguration.LastDeployedTimes">
        <value type="QDateTime">2022-03-18T09:28:27.608</value>
        <value type="QDateTime">2022-04-17T20:50:12.092</value>
+       <value type="QDateTime">2022-06-04T16:54:50.966</value>
        <value type="QDateTime">2022-03-29T22:57:38.228</value>
-       <value type="QDateTime">2022-05-27T17:49:46.762</value>
       </valuelist>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.IgnoreMissingFiles">false</value>
       <value type="bool" key="RemoteLinux.GenericDirectUploadStep.Incremental">false</value>

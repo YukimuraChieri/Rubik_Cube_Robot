@@ -34,6 +34,7 @@ void SpeedSetup::btn_ok_clicked()
 
     bool read = ui->slow_read_btn->isChecked();
     bool action = ui->slow_action_btn->isChecked();
+    bool run = ui->full_btn->isChecked();
 
     QString requestInfo = "[SpeedSetup] ";  // 数据包头
 
@@ -43,9 +44,16 @@ void SpeedSetup::btn_ok_clicked()
         requestInfo += "Fast;"; // 快速模式
 
     if(action)
-        requestInfo += "Slow";  // 稳定模式
+        requestInfo += "Slow;"; // 稳定模式
     else
-        requestInfo += "Fast";  // 快速模式
+        requestInfo += "Fast;"; // 快速模式
+
+    if(run)
+        requestInfo += "Full";  // 完整执行
+    else
+        requestInfo += "Step";  // 分布执行
+
+    qDebug() << requestInfo;
 
     net->sendPacket(requestInfo);   // UDP发送数据包
 }

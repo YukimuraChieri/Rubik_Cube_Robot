@@ -60,6 +60,7 @@ private:
     int progress;
     int execRead;
     int execLen;
+    QString runMode;
 };
 
 #endif // SIMPLEMODE_H

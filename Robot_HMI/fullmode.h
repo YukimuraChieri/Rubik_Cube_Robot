@@ -61,6 +61,7 @@ private:
     int progress;
     int execRead;
     int execLen;
+    QString runMode;
 };
 
 #endif // FULLMODE_H

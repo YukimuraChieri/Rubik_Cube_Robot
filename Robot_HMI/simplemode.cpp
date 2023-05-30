@@ -30,6 +30,7 @@ SimpleMode::SimpleMode(QWidget *parent) :
     progress = 0;   // 进度置0
     execRead = 0;   // 六面读取步数置0
     execLen = 0;    // 机械指令步数置0
+    runMode = "full";   // 完整执行模式
 }
 
 SimpleMode::~SimpleMode()
@@ -140,6 +141,11 @@ void SimpleMode::handleCubeReadReplyInfo(QString data)
             execRead = 3;
         else if(data.contains("fast"))
             execRead = 4;
+        if(data.contains("full"))
+            runMode = "full";
+        else if(data.contains("step"))
+            runMode = "step";
+
         ui->progressBar->setRange(0, execRead);
         ui->label_4->setText("六面识别进度");
         progress = 0;
@@ -156,6 +162,17 @@ void SimpleMode::handleCubeReadReplyInfo(QString data)
         data = data.replace("[Finish]:", ""); // 去掉包头
         ui->progressBar->setValue(execRead);
         progress = 0;
+
+        if(runMode == "full")   // 完整执行模式
+        {}
+        else if(runMode == "step")  // 分步执行模式
+        {
+            this->pTimer->stop();
+            ui->btn_start->setEnabled(true);
+            MessageBox m;
+            m.setMessageText("读取完成\r\n请再次按下开始键进行解序");
+            m.exec();
+        }
     }
     else if(data.contains("[Failed]"))    // 识别失败
     {
